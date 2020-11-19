@@ -105,6 +105,7 @@ I grunden är User-objekten representationer av personer utan specificerad roll 
 | enrolments.schoolType<sup>2</sup> | Code\_schoolType | Skolform | Valfritt |
 | userRelation<sup>2</sup> | REF User | Relaterad person | Valfritt |
 | userRelation.relationType<sup>2</sup> | Code\_RelationType | Typ av relation | Valfritt |
+
 \* Värdet ska ha samma format som eduPersonPrincipalName i Skolfederations attributprofil, dvs användarId@organisation.
 
 \*\* Krävs för elever, inte för personal
