@@ -110,7 +110,7 @@ I grunden är User-objekten representationer av personer utan specificerad roll 
 
 \*\* Krävs för elever, inte för personal
 
-\*\*\* Förslag: Årskurs betecknas enligt Skolfederations attributprofil, F (förskola), 0 - 10 (grundskola), 11 - 14 (gymnasieskola) och V (vuxenutbildning).
+\*\*\* 0 - 10
 
 ## Course (valfritt)
 
