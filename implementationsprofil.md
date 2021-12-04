@@ -101,7 +101,7 @@ I grunden är User-objekten representationer av personer utan specificerad roll 
 | civicNo | String | Personnummer YYYYMMDDNNNN | Valfritt |
 | enrolments<sup>2</sup> | REF SchoolUnit | Inskriven vid skolenhet | Krävs\*\* |
 | enrolments.schoolYear<sup>2</sup> | Int | Årskurs\*\*\* | Valfritt |
-| enrolments.programCode<sup>2</sup> | String | Programkod (Gy/Vux)\*\*\*\* | Valfritt |
+| enrolments.programCode<sup>2</sup> | String | Studievägskod (Gy/Vux)\*\*\*\* | Valfritt |
 | enrolments.schoolType<sup>2</sup> | Code\_schoolType | Skolform | Valfritt |
 | userRelation<sup>2</sup> | REF User | Relaterad person | Valfritt |
 | userRelation.relationType<sup>2</sup> | Code\_RelationType | Typ av relation | Valfritt |
