@@ -1,9 +1,3 @@
-# Dokumentation för EGIL
+# Egilimplementation hos Teachiq
 
-EGIL är en tjänst som enkelt och automatiserat skapar, underhåller och så småningom även raderar elevernas användarkonton i digitala läromedel.
-
-Här kan du hitta publik teknisk dokumentation för EGIL.
-
- * [Implementationsprofil](implementationsprofil.md)
-
-För mer information om vad EGIL är, se [Föreningen Sambruks sida om EGIL](https://github.com/Sambruk/EgilSCIM/releases).
+Implementationsprofilen baseras på Sambruks egilprofil (https://github.com/Sambruk/EgilDoc/blob/master/implementationsprofil.md) och definierar vid behov avsteg från eller förtydliganden kring krav på attribut.
