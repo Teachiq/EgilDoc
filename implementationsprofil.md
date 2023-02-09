@@ -44,9 +44,9 @@ En _lärare_ kan undervisa på _flera_ skolenheter.
 | --- | --- | --- | --- |
 | displayName<sup>2</sup> | String | Skolenhetens namn | Krävs |
 | schoolUnitCode<sup>2</sup> | String | SCB skolenhetskod | Krävs |
-| organisation<sup>2</sup> | REF Organisation | Organisationstillhörighet | _`önskvärt!`_ |
-| schoolUnitGroup<sup>2</sup> | REF SchoolUnitGroup | Skoltillhörighet | _`önskvärt!`_ |
-| schoolTypes<sup>2</sup> | Code\_SchoolType | Skolform | _`önskvärt!`_ |
+| organisation<sup>2</sup> | REF Organisation | Organisationstillhörighet | _`Önskvärt!`_ |
+| schoolUnitGroup<sup>2</sup> | REF SchoolUnitGroup | Skoltillhörighet | _`Önskvärt!`_ |
+| schoolTypes<sup>2</sup> | Code\_SchoolType | Skolform | _`Önskvärt!`_ |
 | municipalityCode<sup>2</sup> | String | Kommunkod | Valfritt |
 
 ## Employment<sup>2</sup> (_obligatoriskt_)
@@ -73,7 +73,7 @@ För tjänster där relationen lärare - elev är betydelsefull för tjänstens 
 | owner<sup>2</sup> | REF SchoolUnit | Kopplad skolenhet | Krävs |
 | teachers<sup>2</sup> | REF Employment | Kopplad lärare | Krävs |
 | groups<sup>2</sup> | REF StudentGroup | Kopplad elevgrupp | Krävs |
-| topic<sup>2</sup> | REF Course/Subject | Kurs eller ämne | _`önskvärt!`_ |
+| topic<sup>2</sup> | REF Course/Subject | Kurs eller ämne | _`Önskvärt!`_ |
 
 ## StudentGroup<sup>2</sup> (_obligatorisk_)
 
@@ -102,7 +102,7 @@ I grunden är User-objekten representationer av personer utan specificerad roll 
 | studentGroups<sup>2</sup> | REF StudentGroup | Medlemskap i elevgrupp | Krävs\*\* |
 | civicNo | String | Personnummer YYYYMMDDNNNN | Valfritt |
 | enrolments<sup>2</sup> | REF SchoolUnit | Inskriven vid skolenhet | Krävs\*\* |
-| enrolments.schoolYear<sup>2</sup> | Int | Årskurs\*\*\* | _`önskvärt!`_ |
+| enrolments.schoolYear<sup>2</sup> | Int | Årskurs\*\*\* | _`Önskvärt!`_ |
 | enrolments.programCode<sup>2</sup> | String | Studievägskod (Gy/Vux)\*\*\*\* | Valfritt |
 | enrolments.schoolType<sup>2</sup> | Code\_schoolType | Skolform | Valfritt |
 | userRelation<sup>2</sup> | REF User | Relaterad person | _`Nej!`_ |
