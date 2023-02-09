@@ -12,7 +12,7 @@ Samtliga objekt som skapas hos klienten för överföring till en server skall a
 
 _Valfria_ objekt och attribut innebär att huruvida dessa skall skickas eller inte avtalas mellan varje tjänsteleverantör och huvudman.
 
-## Organisation<sup>2</sup> (`_önskvärt!_`)
+## Organisation<sup>2</sup> (_`önskvärt!`_)
 
 Ett objekt per skolhuvudman. Objektet innehåller endast organisationens namn och har inga attribut som refererar till andra objekt.
 
