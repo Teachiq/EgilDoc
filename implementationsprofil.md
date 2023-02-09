@@ -4,7 +4,7 @@ Beskrivning av den specialisering inom standarderna SCIM och SS12000 som tagits 
 
 ## Objekt och attribut
 
-Nedan följer det urval av tillgängliga objekttyper som finns beskrivna i SCIM core schema<sup>1</sup> och i SS12000 extended schema<sup>2</sup>.
+<font color=blue>Nedan</blue> följer det urval av tillgängliga objekttyper som finns beskrivna i SCIM core schema<sup>1</sup> och i SS12000 extended schema<sup>2</sup>.
 
 Samtliga objekt som skapas hos klienten för överföring till en server skall alltid ha attributet _**externalId**_ som tilldelas sitt värde av klienten och som är av typen UUID (tex. 6561043b-c636-b247-8487-6561043bc636). När servern tar emot och lagrar objektet skall den alltid ge attributet _**id**_ samma värde som _externalId._
 
