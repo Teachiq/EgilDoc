@@ -22,7 +22,7 @@ Eftersom klienten alltid kontaktar servern med sitt entityID vet servern redan a
 | --- | --- | --- | --- |
 | displayName<sup>2</sup> | String | Organisationens namn | Krävs |
 
-## SchoolUnitGroup<sup>2</sup> (_valfritt_)
+## SchoolUnitGroup<sup>2</sup> (_`önskvärt!`_)
 
 Ett objekt som grupperar en eller flera skolenheter (SchoolUnit) till en &quot;skola&quot;. T.ex har större skolor ofta flera rektorer och varje rektor ansvarar för ett rektorsområde eller motsvarande.
 
@@ -44,9 +44,9 @@ En _lärare_ kan undervisa på _flera_ skolenheter.
 | --- | --- | --- | --- |
 | displayName<sup>2</sup> | String | Skolenhetens namn | Krävs |
 | schoolUnitCode<sup>2</sup> | String | SCB skolenhetskod | Krävs |
-| organisation<sup>2</sup> | REF Organisation | Organisationstillhörighet | Valfritt |
-| schoolUnitGroup<sup>2</sup> | REF SchoolUnitGroup | Skoltillhörighet | Valfritt |
-| schoolTypes<sup>2</sup> | Code\_SchoolType | Skolform | Valfritt |
+| organisation<sup>2</sup> | REF Organisation | Organisationstillhörighet | _`önskvärt!`_ |
+| schoolUnitGroup<sup>2</sup> | REF SchoolUnitGroup | Skoltillhörighet | _`önskvärt!`_ |
+| schoolTypes<sup>2</sup> | Code\_SchoolType | Skolform | _`önskvärt!`_ |
 | municipalityCode<sup>2</sup> | String | Kommunkod | Valfritt |
 
 ## Employment<sup>2</sup> (_obligatoriskt_)
@@ -73,7 +73,7 @@ För tjänster där relationen lärare - elev är betydelsefull för tjänstens 
 | owner<sup>2</sup> | REF SchoolUnit | Kopplad skolenhet | Krävs |
 | teachers<sup>2</sup> | REF Employment | Kopplad lärare | Krävs |
 | groups<sup>2</sup> | REF StudentGroup | Kopplad elevgrupp | Krävs |
-| topic<sup>2</sup> | REF Course/Subject | Kurs eller ämne | Valfri |
+| topic<sup>2</sup> | REF Course/Subject | Kurs eller ämne | _`önskvärt!`_ |
 
 ## StudentGroup<sup>2</sup> (_obligatorisk_)
 
@@ -98,15 +98,15 @@ I grunden är User-objekten representationer av personer utan specificerad roll 
 | displayName<sup>1</sup> | String | Förnamn Efternamn | Krävs |
 | name.familyName<sup>1</sup> | String | Efternamn | Krävs |
 | name.givenName<sup>1</sup> | String | Förnamn | Krävs |
-| emails<sup>1</sup> | String | e-postadress | Valfritt |
+| emails<sup>1</sup> | String | e-postadress | _`Krävs!`_ |
 | studentGroups<sup>2</sup> | REF StudentGroup | Medlemskap i elevgrupp | Krävs\*\* |
 | civicNo | String | Personnummer YYYYMMDDNNNN | Valfritt |
 | enrolments<sup>2</sup> | REF SchoolUnit | Inskriven vid skolenhet | Krävs\*\* |
-| enrolments.schoolYear<sup>2</sup> | Int | Årskurs\*\*\* | Valfritt |
+| enrolments.schoolYear<sup>2</sup> | Int | Årskurs\*\*\* | _`önskvärt!`_ |
 | enrolments.programCode<sup>2</sup> | String | Studievägskod (Gy/Vux)\*\*\*\* | Valfritt |
 | enrolments.schoolType<sup>2</sup> | Code\_schoolType | Skolform | Valfritt |
-| userRelation<sup>2</sup> | REF User | Relaterad person | Valfritt |
-| userRelation.relationType<sup>2</sup> | Code\_RelationType | Typ av relation | Valfritt |
+| userRelation<sup>2</sup> | REF User | Relaterad person | _`Nej!`_ |
+| userRelation.relationType<sup>2</sup> | Code\_RelationType | Typ av relation | _`Nej!`_ |
 
 \* Värdet ska ha samma format som eduPersonPrincipalName i Skolfederations attributprofil, dvs användarId@organisation.
 
