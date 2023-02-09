@@ -1,6 +1,6 @@
 # EGIL implementationsprofil för Exam.net och Kunskapsmatrisen
 
-`I den mån vår implementationsprofil skiljer sig från Sambruks så är det markerat med grå bakgrund.`
+`I den mån vår implementationsprofil skiljer sig från Sambruks så är det markerat med grå bakgrund och utropstecken!`
 
 Beskrivning av den specialisering inom standarderna SCIM och SS12000 som tagits fram för automatiserad kontoadministration i digitala läromedel och liknande system. Profilen beskriver vilka objekttyper som ska användas, vilka av objektens attribut som skall användas, hur autentisering mellan ändpunkter utförs och hur federationen är utformad.
 
@@ -12,7 +12,7 @@ Samtliga objekt som skapas hos klienten för överföring till en server skall a
 
 _Valfria_ objekt och attribut innebär att huruvida dessa skall skickas eller inte avtalas mellan varje tjänsteleverantör och huvudman.
 
-## Organisation<sup>2</sup> (_valfritt_)
+## Organisation<sup>2</sup> (`_önskvärt!_`)
 
 Ett objekt per skolhuvudman. Objektet innehåller endast organisationens namn och har inga attribut som refererar till andra objekt.
 
