@@ -1,6 +1,6 @@
 # EGIL implementationsprofil för Exam.net och Kunskapsmatrisen
 
-I den mån implementationsprofilen skiljer sig från Sambruks så är det markerat med ![#f03c15]
+`I den mån vår implementationsprofil skiljer sig från Sambruks så är det markerat med grå bakgrund.`
 
 Beskrivning av den specialisering inom standarderna SCIM och SS12000 som tagits fram för automatiserad kontoadministration i digitala läromedel och liknande system. Profilen beskriver vilka objekttyper som ska användas, vilka av objektens attribut som skall användas, hur autentisering mellan ändpunkter utförs och hur federationen är utformad.
 
