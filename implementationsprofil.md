@@ -100,7 +100,7 @@ I grunden är User-objekten representationer av personer utan specificerad roll 
 | name.givenName<sup>1</sup> | String | Förnamn | Krävs |
 | emails<sup>1</sup> | String | e-postadress | _`Krävs!`_ |
 | studentGroups<sup>2</sup> | REF StudentGroup | Medlemskap i elevgrupp | Krävs\*\* |
-| civicNo | String | Personnummer YYYYMMDDNNNN | Valfritt |
+| civicNo | String | Personnummer YYYYMMDDNNNN | _`Nej!`_ |
 | enrolments<sup>2</sup> | REF SchoolUnit | Inskriven vid skolenhet | Krävs\*\* |
 | enrolments.schoolYear<sup>2</sup> | Int | Årskurs\*\*\* | _`Önskvärt!`_ |
 | enrolments.programCode<sup>2</sup> | String | Studievägskod (Gy/Vux)\*\*\*\* | Valfritt |
